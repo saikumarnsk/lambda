@@ -1,0 +1,99 @@
+.head {
+  border-bottom: 1px solid #676b6d;
+}
+.navbar-brand {
+  padding-left: 150px;
+}
+.container .nav-item .nav-link {
+  width: 100%;
+  color: #4a4a4a;
+}
+.app-body li a {
+  margin: 0px 40px;
+  color: #4a4a4a;
+}
+.app-body {
+  border-bottom: 1px solid#676b6d;
+}
+.container li a {
+  margin-left: 10px;
+}
+.app-header a {
+  margin-left: 460px;
+}
+.sign-up-button {
+  margin-left: 140px;
+}
+.app-body li a:hover {
+  background-color: #2e3c56;
+  color: white;
+}
+.container .nav-item .nav-link:hover {
+  color: #3498db;
+}
+.intro {
+  text-align: center;
+  justify-content: center;
+}
+.size {
+  border: none;
+}
+.search {
+  border: 1px solid whitesmoke;
+  border-radius: 50px;
+  margin-left: 500px;
+  width: 300px;
+}
+.search a {
+  position: relative;
+  left: 40px;
+}
+.item1 {
+  flex: 75%;
+  margin: 5px;
+}
+.item2 {
+  flex: 25%;
+  padding-left: 20px;
+}
+.side {
+  width: 400px;
+  height: 180px;
+}
+
+.inner-item1 {
+  margin: 5px;
+  flex: 40%;
+}
+.inner-item2 {
+  margin: 10px;
+  flex: 60%;
+  padding-left: 15px;
+}
+h4:hover {
+  color: rgb(77, 237, 243);
+}
+a {
+  color: rgb(71, 67, 67);
+}
+.icons a {
+  margin: 10px;
+}
+ul li a {
+  color: black;
+}
+.rp:hover {
+  background-color: burlywood;
+}
+/*----------------------nav-------*/
+@media screen and (max-width: 1000px) {
+  .main,
+  .inner {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .app-header .navbar-brand {
+    flex: 30%;
+  }
+}
